@@ -1,6 +1,7 @@
 from FloatingFloor import FloatingFloor
 
-class MelanimicFloor(FloatingFloor):
+
+class MelamineFloor(FloatingFloor):
     def __init__(self):
         super().__init__()
     

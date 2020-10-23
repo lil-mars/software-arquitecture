@@ -1,6 +1,8 @@
 from Height import Height
 from Width import Width
+from Thickness import Thickness
 from abc import ABC
+
 
 class FloatingFloor(ABC):
     def __init__(self):
@@ -11,7 +13,8 @@ class FloatingFloor(ABC):
         self.__color = None
 
     def set_thickness(self, thickness):
-        self.__thickness =  thickness
+        self.__thickness = thickness
+
     def set_placement(self, placement):
         self.__placement =  placement
     def set_color(self, color):
